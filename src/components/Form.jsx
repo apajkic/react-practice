@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import InputField from "./form-elements/InputField";
-import SelectField from "./form-elements/SelectField";
-const city = ["Londra", "Parigia", "Belgrado"];
+//import SelectField from "./form-elements/SelectField";
+//const city = ["Londra", "Parigia", "Belgrado"];
 
 const initialState = {
   name: "TestName",
@@ -36,13 +36,13 @@ class Form extends Component {
         <form className="grid" onSubmit={this.handleSubmit}>
           <h4 className="upper">Member Login</h4>
           <InputField
-            name="email"
+            name="Email"
             placeholder="email"
             changeHandler={this.changeHandler}
             value={this.state.name}
           />
           <InputField
-            name="password"
+            name="Password"
             placeholder="password"
             changeHandler={this.changeHandler}
             value={this.state.password}

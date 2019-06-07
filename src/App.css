@@ -17,6 +17,10 @@ body {
   padding: 1.5em;
   box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.6);
 }
+ul {
+  position: sticky;
+  width: 100%;
+}
 li {
   float: left;
   list-style-type: none;
@@ -27,6 +31,17 @@ li {
   display: block;
   padding: 8px;
   background-color: #dddddd;
+}
+#kartica1 {
+  margin-top: 10%;
+  border: 5px solid blueviolet;
+  padding: 2%;
+}
+.col-3 {
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  width: 25%;
 }
 .wraper h4 {
   /* width: 100%; */

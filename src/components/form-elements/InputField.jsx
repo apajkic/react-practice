@@ -5,6 +5,7 @@ function InputField(props) {
 
   return (
     <div>
+      <label htmlFor={name}>{name}</label>
       <input type="text" name={name} id={name} placeholder={placeholder} onChange={changeHandler} value={value}/>
     </div>
   );
